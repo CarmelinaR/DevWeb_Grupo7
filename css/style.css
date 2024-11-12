@@ -1,0 +1,85 @@
+
+/* define o estilo para todo o html que estiver dentro da tag body */
+body {
+   font-family: Verdana, sans-serif;
+   line-height: 1.6;
+   background-color: #c6a8ce;
+   color: #080808;
+   height:20000px; 
+}
+
+/* mesmo estando dentro do body, o header tem seu próprio estilo, mas ainda herda do estilo de body */
+header {
+   background-color: #5e3183;
+   box-shadow: rgb(0 0 0 /75%) 0px 13px 30px -12px;
+   color: #fff;
+
+}
+
+main {
+   justify-content:last baseline;
+   align-items: center;
+   padding: 16px;
+}
+
+/* estiliza todos os titulos que usam a tag h2 */
+h2 {
+   color: #005a87;
+   margin-top: 0px;
+}
+
+/* Redefine formatação dos elementos ancora e lista */
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+li {
+list-style-type: none;
+}
+
+/* Alinhas links do cabeçalho */
+.navbar-links{
+   display: flex;
+   gap: 16px;
+}
+
+.navbar-links li.active,
+.navbar-links li:hover
+{
+   color:#020102;
+}
+
+/* estiliza o rodapé */
+footer {
+   text-align: center;
+   background-color: #ddd;
+}
+
+/* estiliza tabela */
+table {
+   border: 1px solid rgba(255, 0, 0, 0.521);
+   width: 50% !important; 
+   margin: auto;
+}
+
+/* estiliza todos os botoes que tem na página */
+button {
+   padding: 10px 15px;
+   border-radius: 5px;
+   border: none;
+   background-color: #005a87;
+   color: white;
+   cursor: pointer;
+}
+
+/* estiliza o botão quando o usuário passar o mouse em cima do botão */
+button:hover {
+   background-color: #003f5f;
+}
+
+/* Ajusta Imagens */
+img {
+   margin: auto;
+   display: block;
+ }
