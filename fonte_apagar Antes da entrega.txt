@@ -10,6 +10,10 @@ Utilizando tabelas: https://www.homehost.com.br/blog/criar-sites/tabela-html/
 # Site base
 https://www.deloitte.com/br/pt/services/tax/services/solucoes-reforma-tributaria.html?id=br:2pm:3gl:4reforma-fy25:5eng:6tax:search-institucional&gad_source=1&gclid=EAIaIQobChMI2pH0l7ryhwMVmTStBh0P2A8hEAMYASAAEgLBufD_BwE  
 
+
+JavaScript e Interatividade: Adicione efeitos de animação sutil, como a exibição gradual das seções ao rolar a página, para tornar a navegação mais envolvente. Isso pode ser feito com CSS transition e JavaScript para controlar a exibição de conteúdo conforme o usuário interage.
+CSS Avançado: Inclua estilos visuais mais elaborados para elementos interativos, como uma barra de progresso que indica o ano de vigência atual na tabela de progressão dos tributos, destacando o ano presente.
+
 # Divisão
 
 - Home: Responsável ??
@@ -22,6 +26,8 @@ Principais arquivos: sobre.html
 
 - Calendário: Responsável ??
 Incluir um calendário de % dos impostos (procurar no google Calendario reforma tributaria para ter ideias) Usar a criatividade.  Verificar possibilidade de inteligência com Jquery/JS.
+Visualização de Dados: Em vez de apenas uma tabela estática, considere uma visualização interativa, como gráficos de barras ou linhas que mostrem a evolução das taxas ao longo dos anos. Pode ser feito com bibliotecas JavaScript
+
 Principais arquivos: calendário.html
 
 - Calculadora Responsável Carmelina
