@@ -1,0 +1,40 @@
+﻿	
+# FONTE
+projeto no Figma: https://www.figma.com/design/EWhN22SosrS6u6pifsHUDv/Projeto_Web_unisinos?node-id=0-1&t=K5AMk45aK4rcMSNZ-1
+Começando do zero: https://www.youtube.com/watch?v=ykVkobSn5Uw
+Navegação responsiva: https://www.youtube.com/watch?v=O_HBIqp-WVs
+Criando segunda pagina: https://www.youtube.com/watch?v=4Y331FvoWGU
+Utilizando tabelas: https://www.homehost.com.br/blog/criar-sites/tabela-html/
+	
+
+# Site base
+https://www.deloitte.com/br/pt/services/tax/services/solucoes-reforma-tributaria.html?id=br:2pm:3gl:4reforma-fy25:5eng:6tax:search-institucional&gad_source=1&gclid=EAIaIQobChMI2pH0l7ryhwMVmTStBh0P2A8hEAMYASAAEgLBufD_BwE  
+
+# Divisão
+
+- Home: Responsável ??
+Melhorar cabeçalho e rodapé. Alimentar fontes. verificar se é possível incluir algum logo. Usar a criatividade. Verificar possibilidade de inteligência com Jquery/JS.
+Principais arquivos: home.html, cabeçalho.css, style.css
+
+- Sobre: Responsável Leandra
+Incluir funcionalidades visuais (ex: ampliar imagem). Usar a criatividade.  Verificar possibilidade de inteligência com Jquery/JS.
+Principais arquivos: sobre.html
+
+- Calendário: Responsável ??
+Incluir um calendário de % dos impostos (procurar no google Calendario reforma tributaria para ter ideias) Usar a criatividade.  Verificar possibilidade de inteligência com Jquery/JS.
+Principais arquivos: calendário.html
+
+- Calculadora Responsável Carmelina
+Criar uma inteligência que calcula os impostos por ano (revisar os dados incluídos no Calendário). Apresentar a resposta pro usuário; Usar a criatividade.  Verificar possibilidade de inteligência com Jquery/JS.
+Principais arquivos: calculo.html, contato.css, calculadora.js
+
+
+# Script para vídeo:
+
+Carmelina:
+
+Leandra:
+
+Ethi:
+
+Guilherme:  
