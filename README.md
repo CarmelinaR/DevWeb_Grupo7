@@ -8,8 +8,7 @@
 
 # Tecnologias Usadas
 
-* jQuery
-
+* JavaScript
 
 
 # Funcionamento
