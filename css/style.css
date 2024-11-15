@@ -69,3 +69,30 @@ button {
     padding: 10px;
     line-height: 0.5;
  }
+ /* Estilos para a tabela específica da página "calendário" */
+#tabela-calendario {
+   border-collapse: collapse;
+   width: 30%;
+   margin: auto;
+   margin-top: 20px;
+   text-align: center;
+}
+
+#tabela-calendario th, #tabela-calendario td {
+   padding: 10px;
+   border: 1px solid #ddd;
+   transition: background-color 0.3s ease;
+}
+
+#tabela-calendario tbody td:hover, #tabela-calendario thead th:hover {
+   background-color: #f0f0f0;
+}
+
+#tabela-calendario tr:hover td {
+   background-color: #e6f7ff;
+   
+}
+
+#tabela-calendario td:hover {
+   box-shadow: 2px 2px 8px rgba(192, 9, 161, 0.1);
+}
