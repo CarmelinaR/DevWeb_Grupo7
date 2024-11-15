@@ -45,3 +45,10 @@ function calcularTributos() {
         <br><strong>Projeção Total: R$ ${projeçãoTotal.toFixed(2)}</strong>
     `;
 }
+
+
+// Adicionar funcionalidade à caixa-contato
+document.getElementById('contato').addEventListener('click', () => {
+    alert("Redirecionando para a página de contato.");
+    window.open("https://forms.gle/CYgq4VrwHHh7JiyAA", "_blank");
+});
