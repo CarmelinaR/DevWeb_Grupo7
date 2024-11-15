@@ -24,7 +24,7 @@ Principais arquivos: home.html, cabeçalho.css, style.css
 Incluir funcionalidades visuais (ex: ampliar imagem). Usar a criatividade.  Verificar possibilidade de inteligência com Jquery/JS.
 Principais arquivos: sobre.html
 
-- Calendário: Responsável ??
+- Calendário: Responsável Ethi
 Incluir um calendário de % dos impostos (procurar no google Calendario reforma tributaria para ter ideias) Usar a criatividade.  Verificar possibilidade de inteligência com Jquery/JS.
 Visualização de Dados: Em vez de apenas uma tabela estática, considere uma visualização interativa, como gráficos de barras ou linhas que mostrem a evolução das taxas ao longo dos anos. Pode ser feito com bibliotecas JavaScript
 
