@@ -26,7 +26,9 @@
        <main>
                                   <!-- Carrega o arquivo de estilos contato.css -->
                                   <link rel="stylesheet" href="css/contato.css">
-        <h3>Simulação dos Tributos </h3>
+                                  <!-- Carrega o arquivo JS -->
+                                  <script src="js/calculadora.js" defer></script>
+        <h3 class ="indie-flower-regular">Simulação dos Tributos </h3>
         
         <!-- Campo para inserção do faturamento anual -->
         <label for="faturamento">Insira o faturamento anual:</label>
@@ -51,17 +53,18 @@
         <!-- Área para exibir o resultado -->
         <p id="resultado"></p>
 
-        <script src="js/calculadora.js"></script>
 
-        <div class="caixa-contato">
+        <div id="contato" class="caixa-contato" style="cursor: pointer;">
             <div class="icone-bola"></div>
             <div class="texto-contato">
-                <strong>Dúvidas sobre o cálculo</strong>
-                <br>
+                <strong>Dúvidas sobre o cálculo</strong><br>
                 Contate nossos especialistas
             </div>
             <div class="seta">&rarr;</div>
         </div>
+
+        </div>
+        
        </main>
  <!-- rodapé-->
  <footer>
