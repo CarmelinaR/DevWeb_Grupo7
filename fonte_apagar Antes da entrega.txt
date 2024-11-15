@@ -16,7 +16,7 @@ CSS Avançado: Inclua estilos visuais mais elaborados para elementos interativos
 
 # Divisão
 
-- Home: Responsável ??
+- Home: Responsável Guilherme
 Melhorar cabeçalho e rodapé. Alimentar fontes. verificar se é possível incluir algum logo. Usar a criatividade. Verificar possibilidade de inteligência com Jquery/JS.
 Principais arquivos: home.html, cabeçalho.css, style.css
 
