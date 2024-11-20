@@ -44,10 +44,15 @@
  }
 
   /* estiliza o rodapé */
-  footer {
+footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
    background: linear-gradient(135deg, #000000, #8e44ad);
-   color: #fff;
+   color: white;
    text-align: center;
-   padding: 15px 0;
-   font-size: 0.85em;
- }
+   position: relative; /* Posição padrão para não interferir no fluxo */
+   width: 100%; /* Garante que preencha toda a largura */
+   height: 80px; /* Define a altura do rodapé */
+   
+}
