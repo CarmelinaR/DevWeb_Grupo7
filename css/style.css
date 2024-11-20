@@ -23,7 +23,7 @@ body {
     padding: 16px;
     padding-top: 62px; /* Ajuste para evitar a sobreposição */
     overflow: auto; /* Permite scroll interno, se necessário */
-    min-height: 61vh
+    min-height: 80vh
  }
  
  /* estiliza todos os titulos que usam a tag h2 */
