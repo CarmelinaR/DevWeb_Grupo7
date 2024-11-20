@@ -2,26 +2,19 @@
 /* define o estilo para todo o html que estiver dentro da tag body */
 body {
     font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
     background-color: #ffffff;
     color: #080808;
-    z-index: 1000;
-    height: 1000px;
-    min-height: 100vh; /* Ocupa pelo menos 100% da altura da tela */
     padding-top: 82px; /* Corresponde à altura do cabeçalho */
- }
- 
- 
- /* mesmo estando dentro do body, o header tem seu próprio estilo, mas ainda herda do estilo de body */
- header {
-    position: fixed;
-    top: 0;
     width: 100%;
-    background-color: #550b51;;
-    box-shadow: rgba(85, 95, 187, 0.75) 0px 13px 8px -12px;
-    color: #fff;   
+    display: flex;
+    flex-direction: column;
+
  }
- 
+
+
 
   /* mesmo estando dentro do body, o main tem seu próprio estilo, mas ainda herda do estilo de body */
  main {
@@ -30,12 +23,13 @@ body {
     padding: 16px;
     padding-top: 62px; /* Ajuste para evitar a sobreposição */
     overflow: auto; /* Permite scroll interno, se necessário */
+    min-height: 61vh
  }
  
  /* estiliza todos os titulos que usam a tag h2 */
  h2 {
     color: #005a87;
-    margin-top: 0px;
+    margin-top: 5px;
  }
   
 
@@ -57,18 +51,6 @@ button {
  }
  
 
- 
- /* estiliza o rodapé */
- footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    line-height: 0.5;
- }
  /* Estilos para a tabela específica da página "calendário" */
 #tabela-calendario {
    border-collapse: collapse;
@@ -96,3 +78,4 @@ button {
 #tabela-calendario td:hover {
    box-shadow: 2px 2px 8px rgba(192, 9, 161, 0.1);
 }
+
