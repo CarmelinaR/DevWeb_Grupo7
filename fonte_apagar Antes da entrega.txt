@@ -37,6 +37,17 @@ Principais arquivos: calculo.html, contato.css, calculadora.js
 
 # Script para vídeo:
 
+Abertura:
+Nós somos o grupo 7 e neste trabalho desenvolvemos um site dinâmico que reúne funcionalidades como uma calculadora de tributos, um calendário interativo e informações detalhadas sobre as mudanças no sistema tributário. Tudo foi criado utilizando HTML, CSS e JavaScript, garantindo uma experiência intuitiva e eficiente para os usuários.
+Agora, vamos apresentar como as principais partes do projeto funcionam e como ela contribui para resolver esse problema de maneira prática e acessível.
+Guilherme:  
+
+Leandra:
+
+Ethi:
+
+
+
 Carmelina:  
 Meu nome é Carmelina e vou falar da calculadora. O arquivo calculo.html é responsável pela interface da aplicação. 
 Há um campo para o usuário inserir o faturamento e  uma lista suspensa para selecionar o ano desejado e um botão que dispara o cálculo.
@@ -48,10 +59,3 @@ Quando o botão "Calcular" é acionado, o script:
 Obtém os valores de entrada capturando o faturamento e o ano selecionado no HTML.
 Aplica as taxas: calcula os valores dos impostos com base no faturamento e nas taxas correspondentes ao ano.
 Exibe os resultados: retorna os valores de cada imposto e o total diretamente na página.
-
-
-Leandra:
-
-Ethi:
-
-Guilherme:  
