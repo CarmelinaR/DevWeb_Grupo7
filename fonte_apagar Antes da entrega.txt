@@ -37,7 +37,18 @@ Principais arquivos: calculo.html, contato.css, calculadora.js
 
 # Script para vídeo:
 
-Carmelina:
+Carmelina:  
+Meu nome é Carmelina e vou falar da calculadora. O arquivo calculo.html é responsável pela interface da aplicação. 
+Há um campo para o usuário inserir o faturamento e  uma lista suspensa para selecionar o ano desejado e um botão que dispara o cálculo.
+O arquivo também faz referência ao arquivo CSS para estilização inclusive do botão de 'Entrar em contato' e ao calculadora.js para a lógica de cálculo, por meio da tag <script>.
+
+O calculadora.js contém a lógica principal da aplicação. Ele utiliza uma estrutura de dados em forma de objeto chamada taxasTributos, que armazena as alíquotas dos impostos CBS, IBS e ISS para diferentes anos.
+
+Quando o botão "Calcular" é acionado, o script:
+Obtém os valores de entrada capturando o faturamento e o ano selecionado no HTML.
+Aplica as taxas: calcula os valores dos impostos com base no faturamento e nas taxas correspondentes ao ano.
+Exibe os resultados: retorna os valores de cada imposto e o total diretamente na página.
+
 
 Leandra:
 
